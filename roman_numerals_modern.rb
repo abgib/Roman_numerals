@@ -20,5 +20,3 @@ def roman_numeral(x)
   end
   numerals
 end
-
-puts roman_numeral(2439)
