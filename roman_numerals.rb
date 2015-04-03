@@ -1,7 +1,7 @@
 def roman_numeral(x)
   roman_numerals = [[1,"I"],[5,"V"],[10,"X"],[50,"L"],[100,"C"],[500,"D"],[1000,"M"],]
   numerals = ""
-  i = roman_numerals.length
+  i = roman_numerals.length - 1
   while x > 0
     search = true
     while search == true
