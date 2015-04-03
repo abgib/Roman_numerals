@@ -18,5 +18,5 @@ def roman_numeral(x)
       end
     end
   end
-  numerals
+  puts numerals
 end
