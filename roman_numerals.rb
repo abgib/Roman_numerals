@@ -1,0 +1,19 @@
+def roman_numeral(x)
+  roman_numerals = [[1,"I"],[5,"V"],[10,"X"],[50,"L"],[100,"C"],[500,"D"],[1000,"M"],]
+  numerals = ""
+  i = 6
+  while x > 0
+    search = true
+    while search == true
+      y = roman_numerals[i][0]
+      if x >= y
+        search = false
+        (x/y).times do numerals << roman_numerals[i][1] end
+        x = x % y
+      elsif
+        i -= 1
+      end
+    end
+  end
+  numerals
+end
